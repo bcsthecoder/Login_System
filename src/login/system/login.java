@@ -227,6 +227,7 @@ pst.setString(1,txt_username.getText());
 rs=pst.executeQuery();
 if(rs.next()){
 JOptionPane.showMessageDialog(null,"Invalid UserName");
+System.out.println("Invalid UserName");
 
 return;
 }
